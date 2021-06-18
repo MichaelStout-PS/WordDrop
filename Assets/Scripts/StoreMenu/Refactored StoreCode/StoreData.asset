@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23421f96818b39f4c96dfdb9bcb8f44d, type: 3}
+  m_Name: StoreData
+  m_EditorClassIdentifier: 
+  ItemData:
+  - name: Moustache
+    Identifier: C_moustache
+    storeIcon: {fileID: 164868495878449283, guid: 052f3d7b388bdc042991d72fa6b01ead, type: 3}
+    currencyType: 0
+    cost: 200
+    oneTimePurchase: 0
+    purchasable: 1
+  - name: Goatee
+    Identifier: C_goatee
+    storeIcon: {fileID: -7342443375806898219, guid: 052f3d7b388bdc042991d72fa6b01ead, type: 3}
+    currencyType: 0
+    cost: 200
+    oneTimePurchase: 1
+    purchasable: 1
+  - name: Beard
+    Identifier: C_beard
+    storeIcon: {fileID: -1175221695975299865, guid: 052f3d7b388bdc042991d72fa6b01ead, type: 3}
+    currencyType: 0
+    cost: 0
+    oneTimePurchase: 0
+    purchasable: 0
+  - name: Eye Patch
+    Identifier: C_eyepatch
+    storeIcon: {fileID: -2704371348517856296, guid: 052f3d7b388bdc042991d72fa6b01ead, type: 3}
+    currencyType: 0
+    cost: 0
+    oneTimePurchase: 0
+    purchasable: 0
+  - name: 100 coins
+    Identifier: F_100C
+    storeIcon: {fileID: 8669197486623470559, guid: 73721e95c906a66489fc1ef42a01c276, type: 3}
+    currencyType: 1
+    cost: 1
+    oneTimePurchase: 0
+    purchasable: 1
