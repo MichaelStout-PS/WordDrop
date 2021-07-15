@@ -50,6 +50,7 @@ public class GridManager : MonoBehaviour
 
         scoreText.text = ScoreSaver.score + "/" + ScoreSaver.maxScore;
         levelText.text = "Level: " + ScoreSaver.level;
+        longestWordText.text = text.text + " | " + ScoreSaver.longestWord;
 
         weightedRandomiser = new WeightedRandomiser<char>(letterWeights, 15+ScoreSaver.level);
 
@@ -285,12 +286,11 @@ public class GridManager : MonoBehaviour
         {
             MouseUp();
         }
-        #if UNITY_EDITOR
+        
         if (Input.GetMouseButtonUp(0))
         {
             MouseUp();
         }
-        #endif
 
     }
 

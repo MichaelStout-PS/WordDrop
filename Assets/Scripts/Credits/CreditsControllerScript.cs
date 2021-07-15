@@ -96,7 +96,7 @@ public class CreditsControllerScript : MonoBehaviour, ITweenManager
             newCreditsEntry.transform.GetChild(0).GetComponent<Text>().font = font;
             newCreditsEntry.transform.GetChild(1).GetComponent<Text>().font = font;
             
-            newCreditsEntry.transform.position = new Vector3(newCreditsEntry.transform.position.x, 0);
+            newCreditsEntry.transform.position = new Vector3(newCreditsEntry.transform.position.x, -newCreditsEntry.GetComponent<RectTransform>().sizeDelta.y);
 
             //Set times for duration and wait time (wait for other credits before looping again)
             newCreditsEntry.GetComponent<CreditEntryLerp>().duration = durationEach;

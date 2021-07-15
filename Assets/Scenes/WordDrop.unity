@@ -903,7 +903,7 @@ MonoBehaviour:
   fitType: 4
   rows: 6
   columns: 4
-  cellSize: {x: 61.25, y: 56.66667}
+  cellSize: {x: 206.98076, y: 56.666668}
   spacing: {x: 5, y: 5}
 --- !u!114 &446242442
 MonoBehaviour:
@@ -1539,7 +1539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &994087836
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3668,3 +3668,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   letterObject: {fileID: 0}
   letter: 0
+  selected: 0

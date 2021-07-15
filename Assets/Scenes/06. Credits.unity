@@ -486,8 +486,8 @@ MonoBehaviour:
   - name: ' MICHAEL STOUT'
     role: CREDITS PROGRAMMER
     color: {r: 0, g: 0, b: 0, a: 1}
-  - name: ' jams'
-    role: other ui
+  - name: ' jas'
+    role: also
     color: {r: 0, g: 0, b: 0, a: 1}
   - name: ' MICHAEL STOUT'
     role: ' CREDITS PROGRAMMER!'
